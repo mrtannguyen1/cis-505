@@ -17,6 +17,6 @@ public class CodeCommentExample01 {
     } // end myName
 
     public static void main(String[] args) {
-        myName("Richard", "Krasso"); // Call the myName() method with the values "Richard" and "Krasso."
+        myName("Tan", "Nguyen"); // Call the myName() method with the values "Tan" and "Nguyen."
     } // end main
 } // end CodeCommentExample01

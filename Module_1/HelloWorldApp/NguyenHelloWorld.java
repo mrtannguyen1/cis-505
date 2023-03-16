@@ -2,9 +2,9 @@
     Liang, Y.D. (2019). Introduction to Java Programming and Data Structures: 
         Comprehensive Version (12th ed.). Pearson Education, Inc.
     Modified by R. Krasso 2021
-    Additional modifications by A. Student 2021
+    Additional modifications by Nguyen T. Student 2023
 */ 
-public class CodeCommentExample01 {
+public class NguyenHelloWorld {
 
     /**
      * Method with two arguments, which are used to print the user's first and last name.

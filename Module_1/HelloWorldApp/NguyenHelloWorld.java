@@ -17,6 +17,6 @@ public class NguyenHelloWorld {
     } // end helloWorld
 
     public static void main(String[] args) {
-        helloWorld("Tan", "Nguyen"); // Call the myName() method with the values "Tan" and "Nguyen."
+        helloWorld("Tan", "Nguyen"); // Call the helloWorld() method with the values "Tan" and "Nguyen."
     } // end main
 } // end NguyenHelloWorld

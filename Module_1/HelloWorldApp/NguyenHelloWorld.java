@@ -13,7 +13,7 @@ public class NguyenHelloWorld {
      * @return prints the results to the console window.
      */
     public static void helloWorld(String firstName, String lastName) {
-        System.out.println(String.format("Hello World from %s %s", firstName, lastName));
+        System.out.printf(String.format("Hello World from %s %s", firstName, lastName));
     } // end helloWorld
 
     public static void main(String[] args) {

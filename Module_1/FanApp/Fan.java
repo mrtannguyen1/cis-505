@@ -2,7 +2,6 @@
  Nguyen, T. (2023). CIS 505 Intermediate Java Programming. Bellevue University
 */ 
 // Define a public class named Fan
-package Fanapp;
 public class Fan {
  // #1 Define Four constants named STOPPED, SLOW, MEDIUM, and FAST with values 0, 1, 2, and 3 to represent the fans speed.
  public static final int STOPPED = 0;

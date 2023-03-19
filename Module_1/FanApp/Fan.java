@@ -85,12 +85,8 @@ public class Fan {
  @Override
  public String toString() {
   // If fan is on, return The fan speed is set to <speed> with a color of <color> and a radius of <radius>
-  if (this.on) {
-   return "The fan speed is set to " + this.speed + " with a color of " + this.color + " and a radius of " + this.radius;
-  } 
-	else {
    // If fan is off, return The fan is <color> with a radius of <radius> and the fan is off
-   return "The fan is " + this.color + " with a radius of " + this.radius + " and the fan is off";
-  }
- }
+  return this.on ? "The fan speed is set to " + this.speed + " with a color of " + this.color + " and a radius of " + this.radius
+               : "The fan is " + this.color + " with a radius of " + this.radius + " and the fan is off";
+}
 }// End Fan

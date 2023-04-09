@@ -1,5 +1,5 @@
 /*
- Liang, Y.D. (2019). Introduction to Java Programming and Data Structures: 
+ Liang, Y.D. (2019). Introduction to Java Programming and Data Structures:
  	Comprehensive Version (12th ed.). Pearson Education, Inc.
  Nguyen, T. (2023). CIS 505 Intermediate Java Programming. Bellevue University
 */
@@ -28,6 +28,6 @@ this.color = color;
 // 4. Override the toString() method. Return an appended string of the superclass with an additional field for the bowling ball's color.
 @Override
 public String toString() {
-return super.toString() + "\nColor: " + color;
+return super.toString() + "\n  Color: " + color;
 }
 }

@@ -1,5 +1,5 @@
 /*
- Liang, Y.D. (2019). Introduction to Java Programming and Data Structures: 
+ Liang, Y.D. (2019). Introduction to Java Programming and Data Structures:
  	Comprehensive Version (12th ed.). Pearson Education, Inc.
  Nguyen, T. (2023). CIS 505 Intermediate Java Programming. Bellevue University
 */
@@ -27,7 +27,7 @@ this.type = type;
 // 4. Override the toString() method. Return an appended string of the superclass with an additional field for the bag's type.
 @Override
 public String toString() {
-return super.toString() + "\nType: " + type;
+return super.toString() + "\n  Type: " + type;
 }
 }
 

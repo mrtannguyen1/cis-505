@@ -1,5 +1,5 @@
 /*
- Liang, Y.D. (2019). Introduction to Java Programming and Data Structures: 
+ Liang, Y.D. (2019). Introduction to Java Programming and Data Structures:
  	Comprehensive Version (12th ed.). Pearson Education, Inc.
  Nguyen, T. (2023). CIS 505 Intermediate Java Programming. Bellevue University
 */
@@ -22,17 +22,17 @@ public class TestBowlingShopApp {
             switch (choice) {
                 case 'b':
                     System.out.println("\n  --Product Listing--");
-                    GenericQueue<Product> ballQueue = ProductDB.getProducts("B");
+                    GenericQueue<Product> ballQueue = ProductDB.getProducts("b");
                     displayProducts(ballQueue);
                     break;
                 case 'a':
                     System.out.println("\n  --Product Listing--");
-                    GenericQueue<Product> bagQueue = ProductDB.getProducts("A");
+                    GenericQueue<Product> bagQueue = ProductDB.getProducts("a");
                     displayProducts(bagQueue);
                     break;
                 case 's':
                     System.out.println("\n  --Product Listing--");
-                    GenericQueue<Product> shoeQueue = ProductDB.getProducts("S");
+                    GenericQueue<Product> shoeQueue = ProductDB.getProducts("s");
                     displayProducts(shoeQueue);
                     break;
                 case 'x':
@@ -59,23 +59,9 @@ public class TestBowlingShopApp {
     public static void displayProducts(GenericQueue<Product> queue) {
     	while (queue.size() > 0) {
             Product product = queue.dequeue();
-            System.out.println("  Product code: " + product.getCode());
-            System.out.println("  Description: " + product.getDescription());
-            System.out.printf("  Price: $%,6.2f\n", product.getPrice());
-
-            if (product instanceof Ball) {
-                Ball ball = (Ball) product;
-                System.out.printf("  Color: %s\n", ball.getColor());
-            } else if (product instanceof Bag) {
-                Bag bag = (Bag) product;
-                System.out.printf("  Type: %s\n", bag.getType());
-            } else if (product instanceof Shoe) {
-                Shoe shoe = (Shoe) product;
-                System.out.printf("  Size: %.1f\n", shoe.getSize());
-            }
-
+            System.out.println(product.toString());
             System.out.println();
-        
+
     }
 
     }

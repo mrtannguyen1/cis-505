@@ -1,5 +1,5 @@
 /*
- Liang, Y.D. (2019). Introduction to Java Programming and Data Structures: 
+ Liang, Y.D. (2019). Introduction to Java Programming and Data Structures:
  	Comprehensive Version (12th ed.). Pearson Education, Inc.
  Nguyen, T. (2023). CIS 505 Intermediate Java Programming. Bellevue University
 */
@@ -68,7 +68,7 @@ public class ProductDB {
             shoe2.setSize(8.5);
             products.enqueue(shoe2);
 
-            
+
 
             Shoe shoe3 = new Shoe();
             shoe3.setCode("S300");
@@ -83,7 +83,7 @@ public class ProductDB {
             shoe4.setPrice(39.99);
             shoe4.setSize(7.0);
             products.enqueue(shoe4);
-            
+
             Shoe shoe5 = new Shoe();
             shoe5.setCode("S100");
             shoe5.setDescription("Men's Ram Black");
@@ -112,9 +112,9 @@ public class ProductDB {
             bag3.setType("Single");
             products.enqueue(bag3);
 
-        }  
+        }
 
         return products;
-   
+
 }
 }

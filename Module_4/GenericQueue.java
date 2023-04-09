@@ -1,5 +1,5 @@
 /*
- Liang, Y.D. (2019). Introduction to Java Programming and Data Structures: 
+ Liang, Y.D. (2019). Introduction to Java Programming and Data Structures:
  	Comprehensive Version (12th ed.). Pearson Education, Inc.
  Nguyen, T. (2023). CIS 505 Intermediate Java Programming. Bellevue University
 */
@@ -7,7 +7,7 @@ import java.util.LinkedList;
 
 public class GenericQueue<E> {
     //1: A private generic linked list data field named list.
-    private LinkedList<E> list = new LinkedList<E>();
+    private LinkedList<E> list = new LinkedList<>();
 
     //2: A public method named enqueue with a generic argument named item that adds the item
     // to the list using the addFirst method.

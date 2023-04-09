@@ -1,5 +1,5 @@
 /*
- Liang, Y.D. (2019). Introduction to Java Programming and Data Structures: 
+ Liang, Y.D. (2019). Introduction to Java Programming and Data Structures:
  	Comprehensive Version (12th ed.). Pearson Education, Inc.
  Nguyen, T. (2023). CIS 505 Intermediate Java Programming. Bellevue University
 */
@@ -50,7 +50,8 @@ this.price = price;
 
 // 6. Override the toString() method. Return a description of the product with all three fields on separate lines.
 @Override
+
 public String toString() {
-return "Code: " + code + "\nDescription: " + description + "\nPrice: " + price;
+    return String.format("  Product code: %s\n  Description: %s\n  Price: $%,6.2f", code, description, price);
 }
 }

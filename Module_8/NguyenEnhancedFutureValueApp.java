@@ -81,7 +81,6 @@ public class NguyenEnhancedFutureValueApp extends Application {
 
 	    // Add ComboBox for years to pane
 	    cbYears.setMaxWidth(Double.MAX_VALUE);
-	    cbYears.getItems().addAll(10,15,30);
 	    pane.add(lblYears, 0, 3);
 	    pane.add(cbYears, 1, 3);
 	    

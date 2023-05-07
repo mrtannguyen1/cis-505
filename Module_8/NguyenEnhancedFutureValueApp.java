@@ -90,18 +90,17 @@ public class NguyenEnhancedFutureValueApp extends Application {
 	    pane.add(lblInterestRateFormat, 1, 2);
 	    GridPane.setHalignment(lblInterestRateFormat,HPos.RIGHT);
 
-	    // Add Clear and Calculate buttons to pane
+	    
 	    HBox actionBtnContainer = new HBox();
 	    actionBtnContainer.setAlignment(Pos.CENTER_RIGHT);
 	    actionBtnContainer.setPadding(new Insets(15, 0, 15, 30));
 	    actionBtnContainer.setSpacing(10);
+	    // Add Clear and Calculate buttons to pane
 	    Button btnClear = new Button("Clear");
 	    btnClear.setOnAction(e -> clearFormFields());
 	    Button btnCalculate = new Button("Calculate");
 	    btnCalculate.setOnAction(e -> calculateResults());
-	    //btnCalculate.setOnAction(e -> test());
 	    // Add TextArea for future value to pane
-	    
 
 	    GridPane.setColumnSpan(txtResults, 2);
 	    actionBtnContainer.getChildren().add(btnClear);
